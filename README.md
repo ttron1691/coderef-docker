@@ -575,3 +575,7 @@ journalctl -u docker.service
 # Run container with debug options
 docker run --log-driver=json-file --log-opt debug myapp:1.0
 ```
+
+# References
+Below we list the source information including the official Docker API reference documentation
+* https://docs.docker.com/reference/api/engine/
